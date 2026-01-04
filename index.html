@@ -145,6 +145,7 @@ const content = {
     subtitle: "Laadukas parturi-kampaamo Vantaalla",
     aboutTitle: "Tervetuloa Bella Ciaoon",
     aboutText: "Bella Ciao on moderni ja asiakaslähtöinen parturi-kampaamo, jossa tyyli, laatu ja mukava palvelu kohtaavat.",
+    servicesTitle: "Palvelumme",
     services: [
       {category:"Värjäykset", name:"Väri ja leikkaus (extrapitkät)", price:"160€"},
       {category:"Värjäykset", name:"Väri ja leikkaus (lyhyet)", price:"90€"},
@@ -182,6 +183,7 @@ const content = {
     subtitle: "High-quality hair salon in Vantaa",
     aboutTitle: "Welcome to Bella Ciao",
     aboutText: "Bella Ciao is a modern, customer-focused hair salon where style, quality, and friendly service meet.",
+    servicesTitle: "Our Services",
     services: [
       {category:"Coloring", name:"Color and cut (extra long)", price:"160€"},
       {category:"Coloring", name:"Color and cut (short)", price:"90€"},
@@ -221,6 +223,7 @@ function setLang(lang){
   document.getElementById("subtitle").innerText = content[lang].subtitle;
   document.getElementById("about-title").innerText = content[lang].aboutTitle;
   document.getElementById("about-text").innerText = content[lang].aboutText;
+  document.getElementById("services-title").innerText = content[lang].servicesTitle;
   document.getElementById("locations-title").innerText = content[lang].locationsTitle;
   document.getElementById("myyrmaki-desc").innerText = content[lang].myyrmakiDesc;
   document.getElementById("hours-title").innerText = content[lang].hoursTitle;
@@ -268,4 +271,3 @@ setLang('fi');
 
 </body>
 </html>
-
